@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+    
+}
+
+
+/* LOGO */
+
+label.logo {
+  
+    color: rgb(223, 223, 8);
+   
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+
+/* bg-color,font,height,width in navbar */
+
+nav {
+    background-color: black;
+    opacity: 0.6;
+    
+    height: 65px;
+    width: 100%;
+    position: fixed;
+}
+
+
+/*NavBar List styling */
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*NavBar Unordered List styling */
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+/*NavBar Unordered List with Active Link styling */
+
+nav ul li a {
+    color: white;
+    font-size: 22px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+
+/* Navbar Active link color */
+
+a.active {
+    background: rgb(141, 4, 168);
+    transition: .5s;
+}
+
+
+/* Navbar hover link color */
+
+a:hover {
+    
+    background: aqua;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    height: 500px;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+ }
+
+
+
+
+@media (min-width: 640px) {
+    #b4 {
+        max-width: 80%;
+        display: block;
+    }
+    #b1 {
+        width: 60%;
+        display: block;
+    }
+    #b2 {
+        width: 60%;
+        display: block;
+    }
+    #b3 {
+        width: 60%;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #b4 {
+        width: 100%;
+        float: left;
+        
+    }
+    #b1 {
+        width: 60%;
+        float: left;
+    }
+    #b2 {
+        width: 60%;
+        float: left;
+       
+    }
+    #b3 {
+        width: 60%;
+        float: left;
+       
+    }
+}
+
+@media (min-width: 1024px) {
+    #b4 {
+        width: 80%;
+        float: left;
+       
+       
+    }
+    #b1 {
+        width: 60%;
+        float: left;
+       
+    }
+    #b2 {
+        width: 60%;
+        float: left;
+       
+    }
+    #b3 {
+        width: 60%;
+        float: left;
+       
+    }
+}
+
+@media (min-width: 1200px) {
+    #b4 {
+        width: 80%;
+        float: left;
+       
+    }
+    #b1 {
+        width: 60%;
+        float: left;
+       
+    }
+    #b2 {
+        width: 60%;
+        float: left;
+       
+    }
+    #b3 {
+        width: 60%;
+        float: left;
+       
+    }
+}
